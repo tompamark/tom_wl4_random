@@ -29,11 +29,12 @@ add_executable(battery_warning src/battery_warning.cpp)
 ament_target_dependencies(battery_warning ${ament_dependencies})
 
 install(DIRECTORY launch
-  DESTINATION share/${battery_monitor})
+  DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS
   battery_simulator
   battery_warning
-  DESTINATION lib/${battery_monitor})
+  DESTINATION lib/${PROJECT_NAME})
+
 
 ament_package()
