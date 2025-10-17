@@ -17,7 +17,7 @@ git clone https://github.com/tompamark/tom_wl4_random
 cd ~/ros2_ws
 ```
 ``` r
-colcon build --packages-select ros2_cpp_template --symlink-install
+colcon build --packages-select battery_monitor --symlink-install
 ```
 
 <details>
@@ -29,6 +29,6 @@ source ~/ros2_ws/install/setup.bash
 </details>
 
 ``` r
-ros2 launch ros2_cpp_template launch_example1.launch.py
+ros2 launch battery_monitor battery_monitor.launch.py
 ```
 
