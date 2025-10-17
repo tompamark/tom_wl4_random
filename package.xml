@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>battery_monitor</name>
+  <name>tom_wl4_random</name>
   <version>0.0.0</version>
   <description>Akku állapot figyelő</description>
   <maintainer email="tompa.mark@hallgato.sze.hu">tompamark</maintainer>

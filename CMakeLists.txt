@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(battery_monitor)
+project(tom_wl4_random)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
